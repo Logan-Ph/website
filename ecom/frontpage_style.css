@@ -1,9 +1,55 @@
-.headpage{
-    background-color: black;
-    padding-top: 50px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    border-style: solid;
-    border-top: 50px;
+html,
+        body{
+            margin-top: 0;
+            margin-left: 0;
+            margin-right: 0;
+            font-family: Helvetica,sans-serif;
+        }
 
-}
+        .banner{
+            background: black;
+            height: 60px;
+        }
+
+        .banner_text{
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-family: Helvetica,sans-serif;
+            text-align: center;
+            padding-top: 20px ;
+        }
+
+        .list-items{
+            background-color: #c7c7c7 ;
+            height: 40px;
+            margin-top: 0;
+        }
+        
+        .item{
+            text-decoration: none;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            margin:60px;
+            color: black;        
+        }
+
+        .items{
+            padding-top: 10px;
+        }
+
+        .luxury_watches{
+            margin-top: 20px;
+            margin-right: auto;
+            margin-left: auto;
+            display: block;
+            width: 50%;
+            height: auto;
+        }
+
+        .box-item{
+            border: 2px solid ;
+            text-align: center ;
+            height: 100%;
+            display: table-cell;
+            width
+        }
