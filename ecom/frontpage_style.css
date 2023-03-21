@@ -15,9 +15,10 @@ html,
             color: #fff;
             text-transform: uppercase;
             font-weight: 500;
-            font-family: Helvetica,sans-serif;
+            font-family: 'Bona Nova', serif;
             text-align: center;
             padding-top: 20px ;
+            font-size: larger;
         }
 
         .list-items{
@@ -28,9 +29,10 @@ html,
         
         .item{
             text-decoration: none;
-            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            font-family: 'Bona Nova', serif;
             margin:60px;
-            color: black;        
+            color: black;    
+            font-size: large;    
         }
 
         .items{
@@ -42,7 +44,7 @@ html,
             margin-right: auto;
             margin-left: auto;
             display: block;
-            width: 50%;
+            width: 40%;
             height: auto;
         }
 
@@ -51,5 +53,35 @@ html,
             text-align: center ;
             height: 100%;
             display: table-cell;
-            width
+            object-fit: cover;
+            width: 240px;
+            height: 240px;
+            margin-inline-start: 50px;
+            margin-inline-end: 50px;
+            margin-block: 50px;
+            background-color: #fafafa;
+            border: 3px solid #E9DCBE;
+            border-radius: 20px ;
+            transition: box-shadow 0.8s ease;
+        }
+
+        .box-item:hover{
+            box-shadow: 5px 8px 10px  rgba(0, 0, 0, 0.15);
+        }
+
+        .buy{
+            text-decoration: none;
+            text-align: center;
+            margin-left: 33%;
+            color: black;
+            font-size: 30px;
+            font-family: 'Bona Nova', serif;
+        }
+
+        .buy:hover{
+            color: red;
+        }
+
+        .buy:active{
+            opacity: 0.6;
         }
