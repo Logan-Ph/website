@@ -16,7 +16,7 @@
         <div class="banner">
             <div class="banner_content">
                 <div class="banner_text">
-                    luxury men's watches
+                    <a href="index.html" style="text-decoration: none; color: white;">luxury men's watches</a>
                 </div>
             </div>
         </div>
@@ -44,7 +44,90 @@
                 <a href="orderpage.html" target="_self" style="text-decoration: none; color: black;" ><h2 style="text-align: center;font-size: xx-large;font-family: 'Bona Nova', serif;">Order Products Form</h2></a>
             </section>
         </main>
+    </center>
+    <div class="row">
+        <div class="col-75">
+            <div class="container">
+                <form action="form-processing" method="post">
+                    <div class="row">
+                        <div class="col-50">
+                            <h3>Billing Address</h3>
 
+                            <label>Full Name
+                                <p></p>
+                                <input type="text" id="fname" name="fullname" placeholder="Pham Phuoc Sang">
+                            </label>
+
+                            <label for="email"> Email
+                                <p></p>
+                                <input type="text"  name="email" placeholder="abcdef@gmail.com">
+                            </label>
+
+                            <label> Address
+                                <p></p>
+                                <input type="text" id="adr" name="address" placeholder="way to heaven street">
+                            </label>
+
+                            <label>
+                                District:
+                                <p></p>
+                                <input type="text" name="District" placeholder="Nha Be">
+                            </label>
+
+                            <label for="city">City:
+                                <p></p>
+                                <input type="text" name="City" placeholder="Ho Chi Minh">
+                            </label>
+                            
+                            <div class="row">
+                                <div class="col-50">
+                                    <label>Postcode
+                                        <input type="text" id="zip" name="zip" placeholder="10001">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="col-50">
+                            <h3>Payment <img src="credit-card.png" alt="icon of credit-card" width="20px"></h3>
+                            <label>
+                                Name on Card 
+                                <p></p>
+                                <input type="text"name="card_name" placeholder="Pham Phuoc Sang">
+                            </label>
+                            
+                            <label>Credit card number
+                                <p></p>
+                                <input type="text" name="card_number" placeholder="1111-2222-3333-4444">
+                            </label>
+
+                            <label>Exp Month
+                                <p></p>
+                            <input type="text" name="expmonth" placeholder="September">
+                            </label>
+
+                            <div class="row">
+                                <div class="col-50">
+                                    <label>Exp Year
+                                        <p></p>
+                                        <input type="text" id="expyear" name="expyear" placeholder="2040">
+                                    </label>
+                                </div>
+                                <div class="col-50">
+                                    <label>cvv
+                                        <p></p>
+                                        <input type="text" id="cvv" name="cvv" placeholder="352">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <input type="submit" value="Continue to checkout" class="btn">
+                </form>
+            </div>
+        </div>
+    </div>
+    <center>
         <footer>
             <h4>© Copyright 2023 by Logan-Pham| Made with passion <img width="18px" src="passion.png" alt="This is an passion icon from flaticon website"></h4>
         </footer>
