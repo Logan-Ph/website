@@ -1,7 +1,16 @@
-#board div:nth-child(odd) {
+#board:nth-child(odd) div:nth-child(odd) {
     background-color: #eeeed2;
 }
 
-#board div:nth-child(even) {
+#board:nth-child(odd) div:nth-child(even) {
+    background-color: #769656;
+}
+
+
+#board:nth-child(even) div:nth-child(even) {
+    background-color: #eeeed2;
+}
+
+#board:nth-child(even) div:nth-child(odd) {
     background-color: #769656;
 }

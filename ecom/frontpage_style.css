@@ -11,14 +11,31 @@ html,
             height: 60px;
         }
 
-        .banner_text{
+        .container{
+            background-color:black ;
+            margin: 0px;
+            display: flex;
+            width: 100%;
+            height: 60px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .under_header{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 40px;
+            background-color: #c7c7c7;
+            flex-wrap: wrap;
+        }
+
+        .text{
             color: #fff;
             text-transform: uppercase;
             font-weight: 500;
             font-family: 'Bona Nova', serif;
-            text-align: center;
-            padding-top: 20px ;
-            font-size: larger;
+            font-size: larger;        
         }
 
         .list-items{
@@ -30,13 +47,8 @@ html,
         .item{
             text-decoration: none;
             font-family: 'Bona Nova', serif;
-            margin:60px;
             color: black;    
             font-size: large;    
-        }
-
-        .items{
-            padding-top: 10px;
         }
 
         .luxury_watches{
@@ -62,7 +74,7 @@ html,
             background-color: #fafafa;
             border: 3px solid #E9DCBE;
             border-radius: 20px ;
-            transition: box-shadow 0.8s ease;
+            transition: box-shadow 0.1s ease;
         }
 
         .box-item:hover{
@@ -161,4 +173,45 @@ html,
         a {
         color: #2196F3;
         }
+
+        .mobile-nav-icon {
+            text-align: center;
+            width: 30px;
+            height: 30px;
+            padding: 5px;
+            font-size: 20px;
+            background-color: white;
+            display: none;
+        }
         
+        @media  (max-width: 768px) and (min-width: 300px) {
+            .under_header{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 5px 20px ;
+            }
+
+            .under_header{
+                display: none;
+            }
+
+            .mobile-nav-icon{
+                display: block;
+            }
+
+            .under_header .item{
+                display: flex;
+            }
+        
+            .mobile-nav-icon:hover+.under_header {
+                display: block;
+                background-color: white;
+            }
+
+            .under_header:hover{
+                display: block;
+                background-color: white;
+
+            }
+        }
