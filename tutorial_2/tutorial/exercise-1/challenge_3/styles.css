@@ -1,0 +1,28 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    font-size: 25px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+    position: relative;
+    left: 100px
+
+}
+
+.blue{
+    background-color: darkblue;
+    position: relative;
+    left: 200px;
+}
