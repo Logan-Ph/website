@@ -1,0 +1,23 @@
+/* YOUR STYLE GOES IN HERE */
+.card {
+    border: 3px solid #FFBFA9;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.card .cat{
+    width: 200px;
+    border: 6px solid #FBFFB1;
+    border-radius: 50%;
+    background-color: #FFACAC;
+}
+
+.card1 .cat1 {
+    border: 3px solid #FFBFA9;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}

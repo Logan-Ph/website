@@ -75,10 +75,8 @@ function game(house,player) {
             continue_game = prompt("Do you still want to continue to play?(true/false)");
         } while (continue_game !== "true" && continue_game !== "false");
           
-        continue_game = Boolean(continue_game);
+        continue_game = continue_game === "true" ? true:false;
 
-        console.log(continue_game)
-        
         if (!(continue_game)){
             break;
         }
@@ -88,18 +86,8 @@ function game(house,player) {
         console.log('You are out of money! Bye!');
     }
     else if (house <= 0) {
-        console.log('You won! The house has lost all the money. Congratulations!')
+        console.log('You won! The house has lost all the money. Congratulations!');
     }
 }
 
-game(house,player)
-
-
-let continue_game = true;
-while(continue_game){
-    console.log("xxxxxxxx")
-    do {
-        continue_game = prompt("Do you still want to continue to play?(true/false)");
-        continue_game = Boolean(continue_game);
-    } while (continue_game !== "true" && continue_game !== "false");   
-}
+game(house,player);
