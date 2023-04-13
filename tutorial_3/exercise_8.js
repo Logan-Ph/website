@@ -93,13 +93,3 @@ function game(house,player) {
 }
 
 game(house,player)
-
-
-let continue_game = true;
-while(continue_game){
-    console.log("xxxxxxxx")
-    do {
-        continue_game = prompt("Do you still want to continue to play?(true/false)");
-        continue_game = Boolean(continue_game);
-    } while (continue_game !== "true" && continue_game !== "false");   
-}
