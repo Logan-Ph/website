@@ -90,4 +90,3 @@ function game(house,player) {
     }
 }
 
-game(house,player);
