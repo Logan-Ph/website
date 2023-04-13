@@ -6,7 +6,5 @@ h1{
     size: 40px;
     color: #E60028;
     letter-spacing: 10px;
-    text-decoration: underline;
-    text-decoration-style:wavy ;
-    text-decoration-color:plum ;
+    text-decoration: underline wavy plum;
 }

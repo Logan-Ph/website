@@ -66,8 +66,7 @@ h1 {
 	height: 200px;
 	/* This is another useful property. Hmm what do you think it does?*/
 	margin: 0 auto;
-	position: relative;
-
+	display: flex;
 } 
 
 .left_leg, .right_leg { 
@@ -90,9 +89,6 @@ h1 {
 
 .right_leg { 
 	margin-left: 30px; 
-	position: absolute;
-	top: 0px;
-	left: 100px;
 }
 
 .left_eye, .right_eye { 

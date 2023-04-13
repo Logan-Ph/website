@@ -8,7 +8,7 @@ body {
 /* Default Navigation Bar Styles */
 .navbar {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     background-color: #E61E2A;
     color: #fff;
