@@ -3,6 +3,6 @@ ul li{
 }
 
 .completed {
-    /* Add your own styles here */
+    text-decoration: line-through;
     
 }
